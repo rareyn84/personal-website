@@ -1,0 +1,13 @@
+/*Projects page*/
+
+.projectsContainer {
+
+
+}
+
+.projectsTopContainer {
+  height: 90vh;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/45/QDSMoAMTYaZoXpcwBjsL__DSC0104-1.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=09457eb978c925498420b486c636e031);
+  background-size: cover;
+}

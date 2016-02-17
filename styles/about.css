@@ -1,0 +1,57 @@
+/*About page*/
+
+.aboutContainer {
+
+}
+
+.aboutTopContainer {
+  height: 90vh;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/22/one-scene.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=35fb4bb16455e6f2c46bd973f1092c92);
+  background-size: cover;
+}
+
+.aboutTitle {
+  text-align: center;
+
+}
+
+
+
+.funFactsContainer {
+  height: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+.lifeLookContainer {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+
+
+.galleryContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  
+  align-content: center;
+}
+.gallery {
+
+
+}
+
+.gallery img {
+  height: 200px;
+  width: auto;
+  margin: 10px;
+  float: left;
+}

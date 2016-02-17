@@ -1,0 +1,35 @@
+/*Contact page*/
+
+.contactContainer {
+
+}
+
+.contactTopContainer {
+  height: 90vh;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2c11af10adb1fab79f9fb987b0a17038);
+  background-size: cover;
+}
+
+.contactMiddleContainer {
+  padding: 20px 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfo i {
+  padding: 10px;
+}
+
+.headShotContainer img {
+  height: 350px;
+  width: auto;
+
+}

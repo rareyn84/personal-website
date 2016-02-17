@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/styles/about.css" media="screen" title="no title" charset="utf-8">
+
+<div class="aboutContainer">
+  <div class="aboutTopContainer">
+      <navbar></navbar>
+    <div class="aboutTitle">
+      <page-title>Here's what makes me tick...</page-title>
+    </div>
+  </div>
+  <div class="funFactsContainer">
+    <h3 class="paragraphHeader">Some fun facts</h3>
+    <p>
+      I'm awesome.  When I was five I could solve a rubix cube in 5 seconds.  I first reached the peak Mt. Everest when I was twelve and have reached it every three years since.  Why three?  Because it's awesome.  I was a millionaire at age 15 and a billionaire by yesterday.  So yeah, making it rain is a hobby of mine.  I'm also a web-developer when I feel like it.
+    </p>
+  </div>
+  <hr>
+  <div class="lifeLookContainer">
+    <h3 class="paragraphHeader">A look at my life</h3>
+    <div class="galleryContainer">
+      <div class="gallery" ng-repeat="image in images">
+        <img src={{image.imgUrl}} alt={{image.desc}}/>
+      </div>
+    </div>
+
+  </div>
+  <footer-directive></footer-directive>
+</div>
