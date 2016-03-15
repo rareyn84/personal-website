@@ -1,0 +1,71 @@
+/*Home page*/
+
+.homeContainer {
+  
+}
+
+.homeTopContainer {
+  min-height: 98vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e6da171be370444eabceb9525e424627);
+  background-size: cover;
+}
+
+.taglineContainer {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.tagline {
+  font-family: 'Monoton', cursive;
+  font-size: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.introContainer {
+  width: 100%;
+  margin: 15px 0px 25px 0px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.wordpressContainer {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wordpressContainer i {
+  font-size: 245px;
+  margin-bottom: 10px;
+}
+
+.contactButton {
+    margin: 4px;
+    border-radius: 3px;
+    padding: 3px 6px;
+    background: #167587;
+    border: 2px solid #167587;
+}
+
+.contactButton:hover {
+    background: white;
+    border: 2px solid #167587;
+}

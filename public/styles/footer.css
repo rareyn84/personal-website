@@ -3,7 +3,7 @@
   background: #5b5b5b;
   height: auto;
   text-align: center;
-  /*margin-top: 30px;*/
+  margin-top: 30px;
   flex-direction: column;
 }
 
@@ -16,6 +16,15 @@
   font-family: 'Khand', sans-serif;
   list-style-type: none;
   text-transform: uppercase;
+}
+
+.footerLinkContainer a {
+    padding: 5px 9px;
+}
+
+.footerLinkContainer a:hover {
+    background: rgba(249, 249, 249, 0.2);
+    border-radius: 3px;  
 }
 
 .footerContainer img {

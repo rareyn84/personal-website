@@ -9,6 +9,7 @@
   width: 100%;
   background-image: url(https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=2c11af10adb1fab79f9fb987b0a17038);
   background-size: cover;
+  margin-bottom: 30px
 }
 
 .contactMiddleContainer {
@@ -22,6 +23,8 @@
 .contactInfo {
   display: flex;
   flex-direction: column;
+  position: relative;
+  bottom: 35px
 }
 
 .contactInfo i {
