@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-image: url(https://images.unsplash.com/photo-1414690165279-49ab0a9a7e66?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e6da171be370444eabceb9525e424627);
+  background-image: url(/assets/homeBackground.jpeg);
   background-size: cover;
 }
 
@@ -42,7 +42,7 @@
   
 }
 
-.wordpressContainer {
+.technologiesContainer {
   height: auto;
   width: 100%;
   text-align: center;
@@ -52,9 +52,14 @@
   justify-content: center;
 }
 
-.wordpressContainer i {
-  font-size: 245px;
-  margin-bottom: 10px;
+.logos {
+    width: 70%;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  margin: 30px;
 }
 
 .contactButton {
