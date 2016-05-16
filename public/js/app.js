@@ -11,14 +11,14 @@ angular.module('personalApp', ['ui.router'])
         templateUrl: 'js/about/aboutTmpl.html',
         controller: 'aboutCtrl'
       })
-      .state('projects', {
-        url: '/projects',
-        templateUrl: '/js/projects/projectsTmpl.html',
-        controller: 'projectsCtrl'
+      .state('portfolio', {
+        url: '/portfolio',
+        templateUrl: 'js/portfolio/portfolioTmpl.html',
+        controller: 'portfolioCtrl'
       })
       .state('contact', {
         url: '/contact',
-        templateUrl: '/js/contact/contactTmpl.html',
+        templateUrl: 'js/contact/contactTmpl.html',
         controller: 'contactCtrl'
       })
     $urlRouterProvider

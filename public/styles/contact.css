@@ -7,7 +7,7 @@
 .contactTopContainer {
   height: 90vh;
   width: 100%;
-  background-image: url(/assets/contactBackground.jpeg);
+  background-image: url(../assets/contactBackground.jpeg);
   background-size: cover;
   margin-bottom: 30px
 }
